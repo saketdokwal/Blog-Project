@@ -70,8 +70,10 @@ const Login = () => {
           </Wrapper>
         ) : (
           <Wrapper>
-            <TextField variant="standard" label="Enter Name" />
-            <TextField variant="standard" label="Enter Username" />
+            <TextField variant="standard" label="Title" />
+            <TextField variant="standard" label="Enter First Name" />
+            <TextField variant="standard" label="Enter Last Name" />
+            <TextField variant="standard" label="Enter Email" />
             <TextField variant="standard" label="Enter Password" />
             <SignupButton variant="contained">Signup</SignupButton>
             <Text>OR</Text>
